@@ -5,7 +5,7 @@ class PagePolicy < ApplicationPolicy
     end
   end
 
-  def index?
+  def home?
     true
   end
 end
